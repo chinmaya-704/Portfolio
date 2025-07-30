@@ -3,7 +3,7 @@ import { Link } from "react-router-dom"
 
 const Navbar = () => {
    return (
-     <nav className="flex justify-between items-center py-6 px-7">
+     <nav className="flex justify-between items-center py-6 px-7 max-md:px-3">
 
        <h1 className="text-2xl font-bold text-white pacifico max-md:text-xs">Chinmaya<span className="text-indigo-600 hover:underline">...</span></h1>
 
