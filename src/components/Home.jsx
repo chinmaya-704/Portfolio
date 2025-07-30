@@ -8,15 +8,17 @@ const Home = () => {
 
       <Intro />
 
-      <div className="max-md:w-full max-md:mt-4 flex items-center justify-center w-1/2">
+      <div className="box-wrapper max-md:w-full max-md:mt-4 flex items-center justify-center w-1/2 relative">
+      <div className="box relative w-[530px] h-[530px] rounded-full p-[6px]">
         <img
           src="dp.png"
           alt="Chinmaya Kumar Sahoo"
-          className="w-[530px] h-[530px] rounded-full object-cover"
+          className="w-full h-full rounded-full object-cover relative z-10"
         />
+        </div>
       </div>
-      
-    </section>
+
+  </section>
   )
 }
 

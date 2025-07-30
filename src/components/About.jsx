@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div className='m-auto flex flex-col items-center justify-center text-white font-sans overflow-hidden px-6'>      
       <h2 className='text-5xl dance font-bold my-6'>Experiences</h2>
-      <div className="flex flex-col space-y-6 items-center justify-center">
+      <div className="flex flex-col space-y-6 items-center justify-center py-6">
 
         {
           items.map((item,index)=>{

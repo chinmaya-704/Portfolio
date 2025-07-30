@@ -31,7 +31,7 @@ const Contact = () => {
       <input type="hidden" name="_template" value="table" />
       <input type="hidden" name="_autoresponse" value="Thanks for reaching out! I’ll reply soon." />
       
-      <button type="submit" className='bg-cyan-500 hover:bg-cyan-600 text-white font-bold py-2 px-4 rounded'>Send Message</button>
+      <button type="submit" className='bg-cyan-400 hover:bg-cyan-600 text-black play font-bold py-2 px-4 rounded'>Send Message</button>
     </form>
   );
 };

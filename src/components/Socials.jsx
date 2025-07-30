@@ -6,7 +6,7 @@ const Socials = () => {
             
             <a href="https://github.com/chinmaya-704" target="_blank" rel="noopener noreferrer">
               <svg
-                className="w-10 h-10 text-pink-200 hover:text-blue-300"
+                className="w-10 h-10 text-indigo-600 hover:text-blue-300"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"
@@ -17,7 +17,7 @@ const Socials = () => {
             
             <a href="https://www.linkedin.com/in/chinmaya-sahoo-b47385254/" target="_blank" rel="noopener noreferrer">
               <svg
-                className="w-10 h-10 text-pink-200 hover:text-blue-300"
+                className="w-10 h-10 text-indigo-600 hover:text-blue-300"
                 fill="currentColor"
                 viewBox="0 0 24 24"
                 aria-hidden="true"

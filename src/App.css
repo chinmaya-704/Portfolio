@@ -55,3 +55,38 @@
   /* font-weight: <weight>; */
   font-style: normal;
 }
+
+@property --deg {
+  syntax: "<angle>";
+  inherits: true;
+  initial-value: 0deg;
+}
+
+.box::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: conic-gradient(from var(--deg), #83e0eb, #487ef4, #532be0, #88d6ee);
+  border-radius: inherit;
+  z-index: 0;
+  animation: autoRotate 2s linear infinite;
+}
+
+.box::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: inherit;
+  border-radius: inherit;
+  filter: blur(12px);
+  z-index: -1;
+}
+
+@keyframes autoRotate {
+  from {
+    --deg: 0deg;
+  }
+  to {
+    --deg: 360deg;
+  }
+}
