@@ -5,12 +5,12 @@ export default defineConfig({
   plugins: [
     tailwindcss(),react()
   ],
-  build:{
-    outDir: 'dist',
-    // rollupOptions: {
-    //   input: {
-    //     main: './index.html'
-    //   }
-    // }
-  }
+  // build:{
+  //   outDir: 'dist',
+  //   // rollupOptions: {
+  //   //   input: {
+  //   //     main: './index.html'
+  //   //   }
+  //   // }
+  // }
 })
