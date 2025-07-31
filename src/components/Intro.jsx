@@ -13,7 +13,7 @@ const Intro = () => {
       <div className="flex flex-col justify-center items-center px-4 mt-4 space-y-4">
 
         <h2 className="text-6xl font-bold dance">
-          Hi, I'm{' '}
+          Hi , I'm{' '}
           <span className="text-white block">
             <BlurText
               text="Chinmaya Kumar Sahoo"
