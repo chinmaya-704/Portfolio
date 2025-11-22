@@ -15,7 +15,7 @@ const Socials = () => {
               </svg>
             </a>
             
-            <a href="https://www.linkedin.com/in/chinmaya-sahoo-b47385254/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/in/chinmaya-kumar-sahoo-b47385254/" target="_blank" rel="noopener noreferrer">
               <svg
                 className="w-10 h-10 text-[#FFFF00] hover:opacity-80"
                 fill="currentColor"
