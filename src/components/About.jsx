@@ -1,4 +1,4 @@
-import { ul } from 'framer-motion/client'
+// import { ul } from 'framer-motion/client'
 import React from 'react'
 
 const About = () => {
@@ -35,6 +35,14 @@ export default About
 
 const items = [
   {
+    title: "Codealpha, Frontend Developer Intern",
+    date: "June 2024 - July 2024",
+    location: "Remote",
+    desc: [
+      "Designed and deployed a responsive personal portfolio and dynamic image gallery using ReactJS, Tailwind CSS, HTML, and JavaScript, showcasing frontend development and API integration skills."
+    ]
+  },
+  {
     title: "Advaita Core Team- The official fest of IIIT Bhubaneswar",
     date: "February 2025 - March 2025",
     location: "IIIT Bhubaneswar",
@@ -50,14 +58,6 @@ const items = [
     location: "IIIT Bhubaneswar",
     desc: [
       "Led and managed the society to hold various Art Events and handled the expenses, ensuring transparency and fair use."
-    ]
-  },
-  {
-    title: "Codealpha, Frontend Developer Intern",
-    date: "June 2024 - July 2024",
-    location: "Remote",
-    desc: [
-      "Designed and deployed a responsive personal portfolio and dynamic image gallery using ReactJS, Tailwind CSS, HTML, and JavaScript, showcasing frontend development and API integration skills."
     ]
   },
   {
